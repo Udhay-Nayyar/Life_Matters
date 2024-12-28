@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <title>Document</title>
+    
+    <title>Login</title>
+    <style type="text/css">
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 97vh;
+        }
+        .container-fluid{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 850px;
+        }
+        form{
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 500px;
+        }
+    </style>
+</head>
+<body class="container-fluid" background="public/images/loginimg.jpeg">
+
+    <nav class="btn-toolbar d-flex justify-content-between bg-black text-light p-4 ">
+        <div class="btn-group fw-bold">
+            <div>
+                <h4 class="fs-2 ms-4" style="font-family: cursive;">Life Matters</h4>
+            </div>
+        </div>
+        <div class="btn-group mt-2 me-4">
+
+            <span style="margin-top: -10px;">
+                <a href="index.html" class="ms-3 text-light" style="text-decoration: none;"><button
+                        class="btn btn-success">Back to Home</button></a>
+              </span>
+        </div>
+    </nav>
+
+    <section class="d-flex justify-content-start align-items-center text-center ms-4">
+        <div class="logintemp border border-black text-center rounded-4" style="width: 550px; margin-top: 100px; height: 500px;">
+            <form class="pt-5 rounded-4" action="lifematter2.html">
+
+                <div>
+                    <h2 class="fst-italic fw-bold fs-1 text-center text-warning mt-4">नमस्ते भारतीय</h2>
+                </div>
+
+                <ul class="list-unstyled d-flex justify-content-center align-items-center text-center">
+                    <div class="d-block mt-5 mb-5">
+                    <li class="mb-2 p-2">
+                        <input type="text" name="CustomerName" placeholder="Mobile / Email" required autofocus class="form-control" style="width: 300px;">
+                    </li>
+
+                    <li class="mb-1 p-2">
+                        <input type="password" name="CustomerPassword" placeholder="Enter Password" required class="form-control">
+                    </li>
+
+                    <div class="m-3 text-light fs-5">Not a User? 
+                        <a href="signup.html" class="text-decoration-none fw-bold">
+                            Register
+                        </a>
+                    </div>
+
+                    <button class="btn btn-success me-3">Login</button>
+                    <button type="reset" class="btn btn-dark">Clear</button>
+                    </div>
+                    
+                </ul>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
